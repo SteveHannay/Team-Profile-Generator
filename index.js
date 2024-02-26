@@ -64,12 +64,6 @@ async function init() {
 // Get User Input
 // --------------
 
-function validateName(answer) {
-        if (isNaN(answer)) {
-          return "please enter a valid Name";
-        }
-        return true;
-}
 
 // (a) Get MANAGER details from User Input and append to the Team Array
 async function getUserInput_Manager() {
@@ -133,6 +127,7 @@ async function getUserInput_Manager() {
             menuOption = answers.menuOption
 
         })
+        .catch((error) => {console.log('error : ', error)})
 
 }
 
@@ -146,21 +141,33 @@ async function getUserInput_Engineer() {
             type: 'input',
             name: 'name',
             message: 'What is the NAME of the Engineer?',
+            validate : answer => {
+                if(!answer) {return "Please enter a name"}
+                return true}
         },
         {
             type: 'input',
             name: 'id',
             message: 'What is the ID of the Engineer?',
+            validate : (answer) => {
+                if (isNaN(answer)) {return "please enter a number"}
+                return true}
         },
         {
             type: 'input',
             name: 'email',
             message: 'What is the EMAIL of the Engineer?',
+            validate : (answer) => {
+                if(!emailRegex.test(answer)) {return "please enter a valid email address!"}
+                return true}
         },
         {
             type: 'input',
             name: 'github',
             message: 'What is the GITHUB of the Engineer?',
+            validate : answer => {
+                if(!answer) {return "Please enter a gitHub name"}
+                return true}
         },
         {
             type: 'list',
@@ -187,6 +194,7 @@ async function getUserInput_Engineer() {
             menuOption = answers.menuOption
 
         })
+        .catch((error) => {console.log('error : ', error)})
 
 }
 
@@ -200,21 +208,33 @@ async function getUserInput_Intern() {
             type: 'input',
             name: 'name',
             message: 'What is the NAME of the Intern?',
+            validate : answer => {
+                if(!answer) {return "Please enter a name"}
+                return true}
         },
         {
             type: 'input',
             name: 'id',
             message: 'What is the ID of the Intern?',
+            validate : (answer) => {
+                if (isNaN(answer)) {return "please enter a number"}
+                return true}
         },
         {
             type: 'input',
             name: 'email',
             message: 'What is the EMAIL of the Intern?',
+            validate : (answer) => {
+                if(!emailRegex.test(answer)) {return "please enter a valid email address!"}
+                return true}
         },
         {
             type: 'input',
             name: 'school',
             message: 'What is the SCHOOL of the Intern?',
+            validate : answer => {
+                if(!answer) {return "Please enter a school"}
+                return true}
         },
         {
             type: 'list',
@@ -241,6 +261,7 @@ async function getUserInput_Intern() {
             menuOption = answers.menuOption
 
         })
+        .catch((error) => {console.log('error : ', error)})
 
 }
 
