@@ -109,6 +109,10 @@ Here is a screenshot of the Team Profile Generator in use from the terminal :
 ![Challenge 10 - screenshot of the Team Profile Generator in use](assets/Challenge%2010-%20demo%20screenshot.png)
 
 
+All user input is validated (eg. emails must be in the correct format, numeric fields must contain numbers, etc.)
+note : user input validation can be seen in the above video but not in the screenshot. 
+
+
 Here is a screenshot of an example html file generated in the output folder :
 ![Challenge 10 - screenshot of the team.html file created by the Team Profile Generator](assets/Challenge%2010%20-%20Webpage.png)
 
