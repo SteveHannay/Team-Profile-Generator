@@ -106,7 +106,7 @@ Here is a VIDEO of the Team Profile Generator in use from the terminal :
 ![Challenge 10 - Video of the Team Profile Generator in use](assets/Challenge%2010%20-%20Video%20Demo.webm)
 
 Here is a screenshot of the Team Profile Generator in use from the terminal :
-![Challenge 10 - screenshot of the Team Profile Generator in use](assets/Challenge%2010%20-%20Webpage.png)
+![Challenge 10 - screenshot of the Team Profile Generator in use](assets/Challenge%2010-%20demo%20screenshot.png)
 
 
 Here is a screenshot of an example html file generated in the output folder :
