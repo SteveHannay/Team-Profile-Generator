@@ -104,7 +104,7 @@ Once all questions have been answered, an HTML file containing a card for each t
 
 Here is a VIDEO of the Team Profile Generator in use from the terminal :
 
-![Challenge 10 - Video of the Team Profile Generator in use](assets/Challenge%2010%20-%20Testing.jpg)
+![Challenge 10 - Video of the Team Profile Generator in use](assets/Challenge%2010%20-%20Video%20Demo.webm)
 
 
 Here is a screenshot of an example html file generated in the output folder :
