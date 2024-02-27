@@ -103,12 +103,13 @@ Once all questions have been answered, an HTML file containing a card for each t
 
 
 Here is a VIDEO of the Team Profile Generator in use from the terminal :
-
 ![Challenge 10 - Video of the Team Profile Generator in use](assets/Challenge%2010%20-%20Video%20Demo.webm)
+
+Here is a screenshot of the Team Profile Generator in use from the terminal :
+![Challenge 10 - screenshot of the Team Profile Generator in use](assets/Challenge%2010%20-%20Webpage.png)
 
 
 Here is a screenshot of an example html file generated in the output folder :
-
 ![Challenge 10 - screenshot of the team.html file created by the Team Profile Generator](assets/Challenge%2010%20-%20Webpage.png)
 
 
@@ -122,27 +123,6 @@ All tests were passed prior to deployment.
 
 - This is a screenshot of the tests being run from the  terminal using jest.
 ![Challenge 10 - screenshot of tests being run from the terminal](assets/Challenge%2010%20-%20Testing.jpg)
-
---------------------------------------------------------------------------------------------------------------------------
-
-    PS C:\Users\baron\bootcamp\Challenges\Challenge 10\Team-Profile-Generator> npm run test                 
-       
-    > test
-    > jest
-
-    PASS  __tests__/Engineer.test.js
-    PASS  __tests__/Intern.test.js
-    PASS  __tests__/Employee.test.js
-    PASS  __tests__/Manager.test.js
-
-    Test Suites: 4 passed, 4 total
-    Tests:       17 passed, 17 total
-    Snapshots:   0 total
-    Time:        0.648 s, estimated 1 s
-    Ran all test suites.
-    PS C:\Users\baron\bootcamp\Challenges\Challenge 10\Team-Profile-Generator>
-
---------------------------------------------------------------------------------------------------------------------------
 
 
 ## Credits
